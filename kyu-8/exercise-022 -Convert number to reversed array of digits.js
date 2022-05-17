@@ -24,3 +24,11 @@ function digitize(n) {
   }
   return arr;
 }
+
+/* better solution
+
+function digitize(n) {
+  return String(n).split('').map(Number).reverse()
+}
+
+*/
